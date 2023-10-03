@@ -1,0 +1,19 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas {
+    animation-name: shadow_flicker;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes shadow_flicker {
+    from {box-shadow: 1px 1px 100px rgb(16, 123, 162)}
+    to {box-shadow: 1px 1px 100px rgb(163, 57, 110)}
+}
